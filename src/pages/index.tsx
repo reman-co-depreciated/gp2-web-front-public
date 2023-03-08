@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 export default function Home() {
   return (
@@ -11,7 +12,13 @@ export default function Home() {
         <link rel="icon" href="/light-scheme-icon.png" />
       </Head>
       <main>
-        <h1 className='text-3xl font-bold underline'>Hello World! :P</h1>
+        <Navbar />
+
+        <h1 className='text-2xl font-bold underline'>Hello World! :P</h1>
+        <h1 className='text-2xl font-bold'>Reman</h1>
+        <img src='/imgs/illustrator-svg-cornerstone-reman.png'/>
+
+        <Footer />
       </main>
     </>
   )
