@@ -18,6 +18,8 @@ export default function Home() {
         <h1 className='text-2xl font-bold'>Reman</h1>
         <img src='/imgs/illustrator-svg-cornerstone-reman.png'/>
 
+        <button className='btn'>DaisyUI Button</button>
+
         <Footer />
       </main>
     </>
